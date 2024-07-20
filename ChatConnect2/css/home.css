@@ -1,0 +1,90 @@
+/* Homepage */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 30px;
+  }
+  
+  header h1 {
+    margin-right: auto;
+  }
+  
+  #header-div {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E36414;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #984009;
+    border-radius: 4px;
+  }
+  
+  header .button:hover {
+    background-color: #B64D0B;
+    border-color: #672C07;
+  }
+  
+  header .banner h1 {
+    font-size: 52px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .banner {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #847B9D;
+  }
+  
+  .feature {
+    flex: 0 1 calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq {
+    display: flex;
+    background-color: #E3E7DB;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
